@@ -34,9 +34,9 @@ void loop() {
   potVal = analogRead(POT);
 
   straight(potVal/4, 1);
-  delay(200);
+  delay(2000);
   turn(potVal/4, 1);
-  delay(200);
+  delay(2000);
 
 
 }
